@@ -8,7 +8,12 @@
     <string name="move">Move</string>
 
     <string-array name="colors">
-        <item>000000</item>
-        <item>234123</item>
+        <item>#FFFFFFFF</item>
+        <item>#FFBB86FC</item>
+        <item>#FF6200EE</item>
+        <item>#FF3700B3</item>
+        <item>#FF03DAC5</item>
+        <item>#FF018786</item>
+        <item>#FF000000</item>
     </string-array>
 </resources>
