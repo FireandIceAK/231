@@ -27,6 +27,7 @@ public class MyView extends View {
     }
     //Point[] points = new Point[50];
     List<Point> points=new ArrayList<Point>();
+    List<Shape> shapes=new ArrayList<Shape>();
     int cellSize = 30;
     int width;
     int height;
@@ -39,6 +40,12 @@ public class MyView extends View {
         height = getHeight();
         drawGrid(canvas);
         drawPoints(canvas);
+        drowRect(canvas);
+        drowCircle(canvas);
+        drowTriangle(canvas);
+        createCircle();
+        createTriangle();
+        createRect();
     }
     public void drawGrid(Canvas canvas) {
         Paint paint = new Paint();
@@ -77,6 +84,24 @@ public class MyView extends View {
         }
     }
 
+    public void drawRect(Canvas canvas){
+
+    }
+    public void drawCircle(Canvas canvas){
+
+    }
+    public void drawTriangle(Canvas canvas){
+
+    }
+    public void createRect(){
+
+    }
+    public void createTriangle(Point a,Point b,Point c){
+
+    }
+    public void createCircle(){
+
+    }
 }
 
 
